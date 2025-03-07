@@ -14,7 +14,7 @@ APP_ID = int(os.environ.get("APP_ID", "22805894"))
 API_HASH = os.environ.get("API_HASH", "4252e0c226a61540c4fb90d71fbd8f99")
 
 # Generate a user session string 
-TG_USER_SESSION = os.environ.get("TG_USER_SESSION", "")
+TG_USER_SESSION = os.environ.get("TG_USER_SESSION", "FLOOD_WAIT_1613")
 
 # ID of Channel from which the bot shoul search files
 MAINCHANNEL_ID = os.environ.get("MAINCHANNEL_ID", "-1002346089650")

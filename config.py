@@ -1,4 +1,3 @@
-
 import os
 import logging
 from logging.handlers import RotatingFileHandler
@@ -14,7 +13,7 @@ APP_ID = int(os.environ.get("APP_ID", "22805894"))
 API_HASH = os.environ.get("API_HASH", "4252e0c226a61540c4fb90d71fbd8f99")
 
 # Generate a user session string 
-TG_USER_SESSION = os.environ.get("TG_USER_SESSION", "FLOOD_WAIT_1613")
+TG_USER_SESSION = os.environ.get("TG_USER_SESSION", "BQFb_YYADClvySbk2bbZx1MtAW739lIhZR686Ahg91G5cJaGilWttVl1VNhgtysqlhnoY6MK5uonkzzPY7bJMQW42-LSxYG1iIsnkzuHTa17zaAGtd1-SatPvc_QDNG_HHWJJZiGbx71Blja4ODZ8zvY895V-ZpOirNREvBvZX0sk3WbhYDUKWEgjO4qm1uYKtbixLL3me43Affe7Oh7G0nVhsF4_mYEyPHVTnrC61Q11gW3xZ3tVdh-56Gm0Ye0VCD_2lEkQvKAABphdfZQvzJwZEuVRiuP3t4igI-JPiBFbQxFmAmoVaqqTfQEqV5NgpQxdFkHSqF7mcTDmtieqJB_gIAYfAAAAAHG82E2AQ")
 
 # ID of Channel from which the bot shoul search files
 MAINCHANNEL_ID = os.environ.get("MAINCHANNEL_ID", "-1002346089650")
